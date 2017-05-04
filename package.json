@@ -1,0 +1,41 @@
+{
+  "name": "simple-bearer-token",
+  "version": "0.1.0",
+  "description": "Simple Bearer Token object from a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover jasmine",
+    "posttest": "npm run lint && nsp check && istanbul check-coverage",
+    "lint": "eslint .",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsu/simple-bearer-token.git"
+  },
+  "keywords": [
+    "simple",
+    "bearer",
+    "token",
+    "object"
+  ],
+  "author": "Cesar Salazar @ Devsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devsu/simple-bearer-token/issues"
+  },
+  "homepage": "https://github.com/devsu/simple-bearer-token#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-devsu-node": "0.0.3",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.6.0",
+    "jasmine-spy": "0.0.2",
+    "keypair": "^1.0.1",
+    "nsp": "^2.6.3",
+    "simple-bearer-token-test-helper": "0.0.1"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^7.4.0"
+  }
+}
