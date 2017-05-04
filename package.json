@@ -1,6 +1,6 @@
 {
   "name": "simple-bearer-token",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Simple Bearer Token object from a string",
   "main": "index.js",
   "scripts": {
