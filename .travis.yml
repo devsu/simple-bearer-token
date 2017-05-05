@@ -2,19 +2,9 @@ language: node_js
 node_js:
   - "6"
   - "7"
-env:
-  global:
-    - NODE_ENV="development"
-    - CXX=g++-4.8
 install:
   - npm install
 script:
   - npm test
 after_success:
   - npm run coveralls
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - g++-4.8

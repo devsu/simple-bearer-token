@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/devsu/simple-bearer-token#readme",
   "devDependencies": {
+    "coveralls": "^2.13.1",
     "eslint": "^3.19.0",
     "eslint-config-devsu-node": "0.0.3",
     "istanbul": "^0.4.5",
