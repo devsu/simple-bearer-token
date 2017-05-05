@@ -1,6 +1,6 @@
 {
   "name": "simple-bearer-token",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple Bearer Token object from a string",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "jasmine-spy": "0.0.2",
     "keypair": "^1.0.1",
     "nsp": "^2.6.3",
-    "simple-bearer-token-test-helper": "0.0.1"
+    "simple-bearer-token-test-helper": "0.0.3"
   },
   "dependencies": {
     "jsonwebtoken": "^7.4.0"
